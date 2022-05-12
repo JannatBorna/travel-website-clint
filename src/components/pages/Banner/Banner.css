@@ -1,3 +1,6 @@
+h2{
+    color:rgb(247, 241, 241) !important; 
+}
 h3{
   color:rgb(247, 241, 241) !important; 
 }
@@ -6,28 +9,38 @@ p{
   color:rgb(247, 241, 241) !important;
 }
 
+hr{
+    color:rgb(247, 241, 241) !important; 
+}
+
 .banner{
   margin-top: -80px;
 }
 
 .banner-section img{
-  height: 83ch;
+   height: 83ch;
   width: 100%;
 }
 
 .banner-text{
     margin-top: -460px;
-    margin-left: -830px;
+    margin-left: 160px;
 }
 
 .text-inner{
     margin-top: -60px;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 .banner-text h1{
-    font-size: 50px;
+    font-size: 55px;
     color:rgb(247, 241, 241) !important;
     font-weight: 500;
+    font-family: monospace;
+}
+
+.banner-icon{
+    color:rgb(218, 200, 42) !important;
+    font-size: 50px;
     font-family: monospace;
 }

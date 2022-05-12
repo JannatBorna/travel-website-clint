@@ -1,0 +1,23 @@
+hr {
+   color: white !important;
+}
+
+#middle-banner{
+    background-color: rgb(27, 41, 50) !important;
+    margin-top: 140px;
+    height: 390px;
+}
+
+.inner{
+    margin: 2.5em;
+    padding: 5.5em;
+}
+
+.icon-user{
+   color: white !important; 
+   font-size: 30px;
+}
+
+.icon-star{
+    color: rgb(218, 200, 42) !important; 
+}
