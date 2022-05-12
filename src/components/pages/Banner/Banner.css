@@ -1,8 +1,33 @@
+h3{
+  color:rgb(247, 241, 241) !important; 
+}
+
+p{
+  color:rgb(247, 241, 241) !important;
+}
+
 .banner{
   margin-top: -80px;
 }
 
 .banner-section img{
-  height: 80ch;
+  height: 83ch;
   width: 100%;
+}
+
+.banner-text{
+    margin-top: -460px;
+    margin-left: -830px;
+}
+
+.text-inner{
+    margin-top: -60px;
+    margin-left: 80px;
+}
+
+.banner-text h1{
+    font-size: 50px;
+    color:rgb(247, 241, 241) !important;
+    font-weight: 500;
+    font-family: monospace;
 }
