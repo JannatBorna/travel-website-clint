@@ -2,10 +2,15 @@ hr {
    color: white !important;
 }
 
+h5{
+     color: white !important;  
+     font-weight: 600;
+}
+
 #middle-banner{
-    background-color: rgb(27, 41, 50) !important;
+    background-color: rgb(11, 16, 19) !important;
     margin-top: 140px;
-    height: 390px;
+    height: 690px;
 }
 
 .inner{
@@ -19,5 +24,15 @@ hr {
 }
 
 .icon-star{
-    color: rgb(218, 200, 42) !important; 
+    color: rgb(244, 221, 17) !important; 
+}
+
+.middle-div{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+}
+
+.tag-h5{
+    background-color: rgb(244, 221, 17) !important;    
+    padding: 0.2em;
 }
