@@ -3,9 +3,9 @@ import {  Col, Container, Row } from 'react-bootstrap';
 import img1 from '../../../images/travel.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
-import './LastBanner.css';
+import './ThreeBanner.css';
 
-const LastBanner = () => {
+const ThreeBanner = () => {
     return (
         <div className="bg-stone-400">
             <Container>
@@ -32,4 +32,4 @@ const LastBanner = () => {
     );
 };
 
-export default LastBanner;
+export default ThreeBanner;

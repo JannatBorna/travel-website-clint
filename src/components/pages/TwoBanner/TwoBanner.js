@@ -2,9 +2,9 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faStar } from '@fortawesome/free-solid-svg-icons'
-import './MiddleBanner.css';
+import './TwoBanner.css';
 
-const MiddleBanner = () => {
+const TwoBanner = () => {
     return (
         <section id="middle-banner">
             <Container>
@@ -39,7 +39,7 @@ const MiddleBanner = () => {
     );
 };
 
-export default MiddleBanner;         
+export default TwoBanner;         
                 
             
                 

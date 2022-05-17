@@ -1,14 +1,15 @@
 import React from 'react';
-import FirstBanner from '../FirstBanner/FirstBanner';
-import LastBanner from '../LastBanner/LastBanner';
-import MiddleBanner from '../MiddleBanner/MiddleBanner';
+import OneBanner from '../OneBanner/OneBanner';
+import TwoBanner from '../TwoBanner/TwoBanner';
+import ThreeBanner from '../ThreeBanner/ThreeBanner';
+
 
 const Home = () => {
     return (
         <div>
-            <FirstBanner />
-            <MiddleBanner /> 
-            <LastBanner />
+            <OneBanner />
+            <TwoBanner /> 
+            <ThreeBanner />
         </div>
     );
 };
