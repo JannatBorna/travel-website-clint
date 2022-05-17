@@ -3,6 +3,7 @@ import OneBanner from '../HomeBanner/OneBanner/OneBanner';
 import TwoBanner from '../HomeBanner/TwoBanner/TwoBanner';
 import ThreeBanner from '../HomeBanner/ThreeBanner/ThreeBanner';
 import FourBanner from '../HomeBanner/FourBanner/FourBanner';
+import FiveBanner from '../HomeBanner/FiveBanner/FiveBanner';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <TwoBanner /> 
             <ThreeBanner />
             <FourBanner />
+            <FiveBanner />
         </div>
     );
 };

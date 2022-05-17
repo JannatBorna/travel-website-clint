@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../../../images/banner-5.jpg';
+import banner from '../../../../images/layout-15.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 import './OneBanner.css';
