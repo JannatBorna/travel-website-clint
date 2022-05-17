@@ -1,0 +1,15 @@
+/* .last-banner{
+   background-color: rgb(244, 244, 244) !important;
+} */
+
+.last-banner-div{
+    padding: 1.5em;
+    margin: 1.5em;
+}
+
+
+.last-banner-div img{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 300px;
+}

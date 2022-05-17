@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import LastBanner from '../LastBanner/LastBanner';
 import MiddleBanner from '../MiddleBanner/MiddleBanner';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner />
             <MiddleBanner /> 
+            <LastBanner />
         </div>
     );
 };

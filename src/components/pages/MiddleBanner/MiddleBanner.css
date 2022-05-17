@@ -2,11 +2,6 @@ hr {
    color: white !important;
 }
 
-h5{
-     color: white !important;  
-     font-weight: 600;
-}
-
 #middle-banner{
     background-color: rgb(11, 16, 19) !important;
     margin-top: 140px;
@@ -32,7 +27,7 @@ h5{
    grid-template-columns: repeat(3, 1fr); 
 }
 
-.tag-h5{
+.theme-color{
     background-color: rgb(244, 221, 17) !important;    
     padding: 0.2em;
 }
