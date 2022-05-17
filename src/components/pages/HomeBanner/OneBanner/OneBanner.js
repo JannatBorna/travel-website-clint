@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../../images/banner-5.jpg';
+import banner from '../../../../images/banner-5.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 import './OneBanner.css';
@@ -12,19 +12,19 @@ const OneBanner = () => {
             </div>
 
             <div className="banner-text d-flex">
-               <h1 className="text-start">Find Your <br /> Perfect Trip</h1>
+               <h1 className="text-start text-white">Find Your <br /> Perfect Trip</h1>
             </div>
 
                <div className="d-flex text-inner mt-5 text-start">
                     <div>
-                       <h3>TOP HOTELS</h3>
-                       <p>Access The Industry’s Leading Tour Site</p>
-                       <FontAwesomeIcon icon={faAngleLeft} className="banner-icon"/>
+                       <h3 className='text-white'>TOP HOTELS</h3>
+                       <p className='text-white'>Access The Industry’s Leading Tour Site</p>
+                       <FontAwesomeIcon icon={faAngleLeft} className="text-yellow-300 text-5xl"/>
                     </div>
                     <div className='mx-5'>
-                       <h3>LIST OF TOURS</h3>
-                       <p>Access The Industry’s Leading Tour Site</p>
-                       <FontAwesomeIcon icon={faAngleLeft} className="banner-icon"/>
+                       <h3 className='text-white'>LIST OF TOURS</h3>
+                       <p className='text-white'>Access The Industry’s Leading Tour Site</p>
+                       <FontAwesomeIcon icon={faAngleLeft} className="text-yellow-300 text-5xl"/>
                     </div>
                 </div>
         </div>

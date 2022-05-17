@@ -1,7 +1,8 @@
 import React from 'react';
-import OneBanner from '../OneBanner/OneBanner';
-import TwoBanner from '../TwoBanner/TwoBanner';
-import ThreeBanner from '../ThreeBanner/ThreeBanner';
+import OneBanner from '../HomeBanner/OneBanner/OneBanner';
+import TwoBanner from '../HomeBanner/TwoBanner/TwoBanner';
+import ThreeBanner from '../HomeBanner/ThreeBanner/ThreeBanner';
+import FourBanner from '../HomeBanner/FourBanner/FourBanner';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <OneBanner />
             <TwoBanner /> 
             <ThreeBanner />
+            <FourBanner />
         </div>
     );
 };

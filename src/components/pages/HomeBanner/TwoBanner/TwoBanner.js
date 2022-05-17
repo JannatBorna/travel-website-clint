@@ -9,13 +9,13 @@ const TwoBanner = () => {
         <section id="middle-banner">
             <Container>
                 <div className="inner">
-                    <hr className="my-4"/>
+                    <hr className='text-white my-4'/>
                     <p className="icon-user"><FontAwesomeIcon icon={faUser} /></p>
                     <p className="icon-star"><FontAwesomeIcon icon={faStar} /> <FontAwesomeIcon icon={faStar} /> 
                     <FontAwesomeIcon icon={faStar} /></p>
-                    <h2>Learn More. Book More. Earn More.</h2>
-                    <p>Visit our Resource center for the latest articles videos to take your business to the next level.</p>
-                    <hr className="my-4"/> 
+                    <h2 className='text-white'>Learn More. Book More. Earn More.</h2>
+                    <p className='text-white'>Visit our Resource center for the latest articles videos to take your business to the next level.</p>
+                    <hr className='text-white my-4'/> 
                 </div>  
 
                 <div className="middle-div">

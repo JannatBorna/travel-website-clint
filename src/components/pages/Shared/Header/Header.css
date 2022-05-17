@@ -1,12 +1,13 @@
 #logo{
-  color: rgb(218, 200, 42) !important;
+  color: rgb(186, 168, 8) !important;
   font-family:monospace;
+  font-size: 15px;
 }
 
 #toggle{
   font-size: 15px;
   color: rgb(218, 200, 42) !important;
-  border: 2px solid rgb(218, 200, 42) !important;
+  border: 4px solid rgb(241, 218, 13) !important;
 }
 
 .toggle-bar{

@@ -1,6 +1,6 @@
 import React from 'react';
 import {  Col, Container, Row } from 'react-bootstrap';
-import img1 from '../../../images/travel.jpg';
+import img1 from '../../../../images/travel.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import './ThreeBanner.css';
