@@ -1,12 +1,12 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
+import FirstBanner from '../FirstBanner/FirstBanner';
 import LastBanner from '../LastBanner/LastBanner';
 import MiddleBanner from '../MiddleBanner/MiddleBanner';
 
 const Home = () => {
     return (
         <div>
-            <Banner />
+            <FirstBanner />
             <MiddleBanner /> 
             <LastBanner />
         </div>

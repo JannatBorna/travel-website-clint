@@ -1,10 +1,10 @@
 import React from 'react';
 import banner from '../../../images/banner-5.jpg';
-import './Banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
+import './FirstBanner.css';
 
-const Banner = () => {
+const FirstBanner = () => {
     return (
         <div className="banner">
             <div className="banner-section">
@@ -31,4 +31,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default FirstBanner;
