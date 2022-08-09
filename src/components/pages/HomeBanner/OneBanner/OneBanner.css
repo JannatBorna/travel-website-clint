@@ -1,18 +1,22 @@
-.banner{
+.banner {
   margin-top: -80px;
 }
 
-.banner-section img{
-   height: 83ch;
+.banner-section img {
+  height: 83ch;
   width: 100%;
 }
 
-.banner-text{
-    margin-top: -460px;
-    margin-left: 160px;
+.banner-text {
+  margin-top: -460px;
+  margin-left: 160px;
 }
 
-.text-inner{
-    margin-top: -60px;
-    margin-left: 160px;
+.banner-text h1 {
+  font-size: 55px;
+}
+
+.text-inner {
+  margin-top: -60px;
+  margin-left: 160px;
 }

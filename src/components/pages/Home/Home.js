@@ -1,10 +1,11 @@
 import React from 'react';
-import OneBanner from '../HomeBanner/OneBanner/OneBanner';
-import TwoBanner from '../HomeBanner/TwoBanner/TwoBanner';
-import ThreeBanner from '../HomeBanner/ThreeBanner/ThreeBanner';
-import FourBanner from '../HomeBanner/FourBanner/FourBanner';
 import FiveBanner from '../HomeBanner/FiveBanner/FiveBanner';
+import FourBanner from '../HomeBanner/FourBanner/FourBanner';
+import OneBanner from '../HomeBanner/OneBanner/OneBanner';
 import SixBanner from '../HomeBanner/SixBanner/SixBanner';
+import ThreeBanner from '../HomeBanner/ThreeBanner/ThreeBanner';
+import TwoBanner from '../HomeBanner/TwoBanner/TwoBanner';
+
 
 
 const Home = () => {

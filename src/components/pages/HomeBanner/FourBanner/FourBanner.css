@@ -1,6 +1,5 @@
-.border-div{
-    border-left: 3px solid rgb(186, 186, 12);
-    border-top: 3px solid rgb(186, 186, 12);
-    border-bottom: 3px solid rgb(186, 186, 12);
-
+.border-div {
+  border-left: 3px solid #cf1e44;
+  border-top: 3px solid #cf1e44;
+  border-bottom: 3px solid #cf1e44;
 }

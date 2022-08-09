@@ -1,16 +1,16 @@
-#logo{
-  color: rgb(186, 168, 8) !important;
-  font-family:monospace;
-  font-size: 15px;
+#logo {
+  color: #cf1e44 !important;
+  font-family: monospace;
+  font-size: 25px;
 }
 
-#toggle{
+#toggle {
   font-size: 15px;
-  color: rgb(218, 200, 42) !important;
-  border: 1px solid rgb(241, 218, 13) !important;
+  color: #cf1e44 !important;
+  border: 1px solid #cf1e44 !important;
 }
 
-.toggle-bar{
+.toggle-bar {
   background-color: white !important;
   color: rgb(252, 246, 246) !important;
 }

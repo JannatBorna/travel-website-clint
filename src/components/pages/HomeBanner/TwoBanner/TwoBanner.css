@@ -1,33 +1,33 @@
 hr {
-   color: white !important;
+  color: white !important;
 }
 
-#middle-banner{
-    background-color: rgb(11, 16, 19) !important;
-    margin-top: 140px;
-    height: 690px;
+#middle-banner {
+  background-color: rgb(11, 16, 19) !important;
+  margin-top: 140px;
+  height: 690px;
 }
 
-.inner{
-    margin: 2.5em;
-    padding: 5.5em;
+.inner {
+  margin: 2.5em;
+  padding: 5.5em;
 }
 
-.icon-user{
-   color: white !important; 
-   font-size: 30px;
+.icon-user {
+  color: white !important;
+  font-size: 30px;
 }
 
-.icon-star{
-    color: rgb(244, 221, 17) !important; 
+.icon-star {
+  color: #cf1e44 !important;
 }
 
-.middle-div{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr); 
+.middle-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.theme-color{
-    background-color: rgb(244, 221, 17) !important;    
-    padding: 0.2em;
+.theme-color {
+  background-color: #cf1e44 !important;
+  padding: 0.2em;
 }
