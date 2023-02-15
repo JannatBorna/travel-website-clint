@@ -1,14 +1,13 @@
 import React from 'react';
-import layout1 from '../../../../images/layout-10.jpg';
-import layout2 from '../../../../images/layout-2.jpg';
-import layout3 from '../../../../images/layout-3.jpg';
-import layout4 from '../../../../images/layout-4.jpg';
-// import layout5 from '../../../../images/layout-5.jpg';
 import { Container } from 'react-bootstrap';
-import layout7 from '../../../../images/layout-13.jpg';
-import layout6 from '../../../../images/layout-6.jpg';
-import layout8 from '../../../../images/layout-8.jpg';
-import layout9 from '../../../../images/layout-9.jpg';
+import layout1 from '../../../../images/layout/layout-10.jpg';
+import layout2 from '../../../../images/layout/layout-2.jpg';
+import layout3 from '../../../../images/layout/layout-3.jpg';
+import layout4 from '../../../../images/layout/layout-4.jpg';
+import layout7 from '../../../../images/layout/layout-13.jpg';
+import layout6 from '../../../../images/layout/layout-6.jpg';
+import layout8 from '../../../../images/layout/layout-8.jpg';
+import layout9 from '../../../../images/layout/layout-9.jpg';
 import './FiveBanner.css';
 
 const FiveBanner = () => {
@@ -20,7 +19,7 @@ return (
           Travel{" "}
           <span className="theme-color">can improve your personality</span>
         </h2>
-        <h3 className="text-white p-2">Travel Gallery</h3>
+        <h3 className="p-2 text-white">Travel Gallery</h3>
       </div>
       <div class="row">
         <div class="column">

@@ -1,7 +1,7 @@
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import banner from '../../../../images/layout-15.jpg';
+import banner from '../../../../images/layout/layout-15.jpg';
 import './OneBanner.css';
 
 const OneBanner = () => {
@@ -12,10 +12,10 @@ const OneBanner = () => {
             </div>
 
             <div className="banner-text d-flex">
-               <h1 className="text-start text-white">Find Your Perfect<br />  Trip</h1>
+               <h1 className="text-white text-start">Find Your Perfect<br />  Trip</h1>
             </div>
 
-               <div className="d-flex text-inner mt-5 text-start">
+               <div className="mt-5 d-flex text-inner text-start">
                     <div>
                        <h3 className='text-white'>TOP HOTELS</h3>
                        <p className='text-white'>Access The Industry’s Leading Tour Site</p>
