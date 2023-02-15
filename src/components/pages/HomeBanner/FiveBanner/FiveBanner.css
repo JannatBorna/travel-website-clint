@@ -1,39 +1,28 @@
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+.bannerFive img{
+    width: 100%;
+    height: 90vh;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.banner-five-box{
+    margin-top: -470px;
+    box-shadow: #00000026 0px 5px 15px 0px;
+    height: 45vh;
+    background: white;
+    padding: 40px;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.bannerFive-icon{
+    margin-left: 130px;
+    margin-top: -60px;
+    color: #ffffff !important;
+    font-size: 30px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #d10e52 !important;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+.anchor-tag{
+    text-decoration: none;
+    color: #10b9b9 !important;
 }

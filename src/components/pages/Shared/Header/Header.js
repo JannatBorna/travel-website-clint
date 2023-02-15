@@ -15,7 +15,7 @@ return (
           aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
           placement="end" 
         >
-          <Offcanvas.Header closeButton>
+          <Offcanvas.Header closeButton >
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
               Travel Information
             </Offcanvas.Title>

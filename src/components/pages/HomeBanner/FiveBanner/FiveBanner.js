@@ -1,50 +1,82 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import layout1 from '../../../../images/layout/layout-10.jpg';
-import layout2 from '../../../../images/layout/layout-2.jpg';
-import layout3 from '../../../../images/layout/layout-3.jpg';
-import layout4 from '../../../../images/layout/layout-4.jpg';
-import layout7 from '../../../../images/layout/layout-13.jpg';
-import layout6 from '../../../../images/layout/layout-6.jpg';
-import layout8 from '../../../../images/layout/layout-8.jpg';
-import layout9 from '../../../../images/layout/layout-9.jpg';
+import { Col, Container, Row } from 'react-bootstrap';
+import bannerFive from '../../../../images/banner/bannerFive.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faStar, faEarth, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import './FiveBanner.css';
 
-const FiveBanner = () => {
-return (
-  <div className="bg-black">
-    <Container>
-      <div className="p-4">
-        <h2 className="text-white">
-          Travel{" "}
-          <span className="theme-color">can improve your personality</span>
-        </h2>
-        <h3 className="p-2 text-white">Travel Gallery</h3>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src={layout1} alt="..." />
-          <img src={layout2} alt="..." />
-        </div>
 
-        <div class="column">
-          <img src={layout3} alt="..." />
-          <img src={layout8} alt="..." />
-        </div>
+const SixBanner = () => {
+    return (
+        <div className='section-gap'>
+            <div className='bannerFive'>
+                <img src={bannerFive} alt="" />
+                <div>
+                    <Container>
+                        <Row>
+                            <Col lg={4} md={4} sm={12}>
+                                <div className='banner-five-box'>
+                                    <div className='bannerFive-icon'>
+                                        <FontAwesomeIcon icon={faStar} />
+                                    </div>
+                                    <div className='mt-5'>
+                                        <h3>Handpicked Hotels</h3>
+                                        <p>We travel to bring what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are differently dispersed. </p>
+                                        <a href="/fiveBanner" className='anchor-tag'>Learn More</a>
+                                    </div> 
+                                </div>
+                            </Col>
+                            <Col lg={4} md={4} sm={12}>
+                                <div className='banner-five-box'>
+                                    <div className='bannerFive-icon'>
+                                        <FontAwesomeIcon icon={faEarth} />
+                                    </div>
+                                    <div className='mt-5'>
+                                        <h3>World Class Service</h3>
+                                        <p>We travel to bring what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are differently dispersed. </p>
+                                        <a href="/fiveBanner" className='anchor-tag'>Learn More</a>
+                                    </div>   
+                                </div>
+                            </Col>
+                            <Col lg={4} md={4} sm={12}>
+                                <div className='banner-five-box'>
+                                    <div className='bannerFive-icon'>
+                                        <FontAwesomeIcon icon={faThumbsUp } />
+                                    </div>
+                                    <div className='mt-5'>
+                                        <h2>Best Price Guarantee</h2>
+                                        <p>We travel to bring what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are differently dispersed. </p>
+                                        <a href="/fiveBanner" className='anchor-tag'>Learn More</a>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+            </div>
 
-        <div class="column">
-          <img src={layout7} alt="..." />
-          <img src={layout6} alt="..." />
-        </div>
+            <div>
+                <Row>
+                    <Col lg={4} md={4} sm={12}>
+                        <div>
+                            <h3>1</h3>
+                        </div>
+                    </Col>
+                    <Col lg={4} md={4} sm={12}>
+                        <div>
+                            <h3>2</h3>
+                        </div>
+                    </Col>
+                    <Col lg={4} md={4} sm={12}>
+                        <div>
+                            <h3>3</h3>
+                        </div>
+                    </Col>
 
-        <div class="column">
-          <img src={layout4} alt="..." />
-          <img src={layout9} alt="..." />
+                </Row>
+            </div>
         </div>
-      </div>
-    </Container>
-  </div>
-);
+    );
 };
 
-export default FiveBanner;
+export default SixBanner;

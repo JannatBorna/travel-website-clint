@@ -6,8 +6,8 @@ import './OneBanner.css';
 
 const OneBanner = () => {
     return (
-        <div className="banner">
-            <div className="banner-section">
+        <div className="banner-one">
+            <div className="banner">
                 <img src={banner} alt="" />
             </div>
 
