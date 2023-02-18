@@ -9,25 +9,26 @@ return (
     <Navbar key={expand} expand={expand} className="mb-3">
       <Container fluid>
         <Navbar.Brand href="#" id="logo">YourTravel</Navbar.Brand>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="toggle"/>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="toggle"
+        />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
           aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
           placement="end" 
         >
-          <Offcanvas.Header closeButton >
+          <Offcanvas.Header closeButton className='close-button'>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} >
                 <span className='travel-info'>Travel Information</span>
             </Offcanvas.Title>
           </Offcanvas.Header>
-          <Offcanvas.Body>
+          <Offcanvas.Body className='nav-body'>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="/about" className='nav-list'>About</Nav.Link>
-              <Nav.Link href="/dashboard" className='nav-list'>Services</Nav.Link>
-              <Nav.Link href="/dashboard" className='nav-list'>Blogs</Nav.Link>
-              <Nav.Link href="/dashboard" className='nav-list'>Contacts</Nav.Link>
-              <Nav.Link href="/dashboard" className='nav-list'>Login</Nav.Link>
-               <Nav.Link href="/dashboard" className='nav-list'>Dashboard</Nav.Link>
+              <Nav.Link href="/about" className='text-center nav-list '>About</Nav.Link>
+              <Nav.Link href="/services" className='my-4 text-center nav-list'>Services</Nav.Link>
+              <Nav.Link href="/blogs" className='text-center nav-list'>Blogs</Nav.Link>
+              <Nav.Link href="/contacts" className='my-4 text-center nav-list'>Contacts</Nav.Link>
+              <Nav.Link href="/login" className='text-center nav-list'>Login</Nav.Link>
+               <Nav.Link href="/dashboard" className='my-4 text-center nav-list'>Dashboard</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

@@ -3,13 +3,23 @@
   font-family: monospace;
   font-size: 35px;
   font-weight: bolder;
-  border-bottom: 2px solid #cf1e44 !important;
+  /* border-bottom: 2px solid #cf1e44 !important; */
+}
+
+.close-button{
+  color: #ffffff !important;
+  background-color: #cf1e44 !important;
 }
 
 #toggle {
   font-size: 15px;
-  color: #cf1e44 !important;
-  border: 1px solid #cf1e44 !important;
+  background-color: #cf1e44 !important;
+  border: 3px solid #cf1e44 !important;
+}
+
+#toggle:hover{
+  /* background-color: #efeced !important; */
+  border: 1px solid #ffffff !important;
 }
 
 
@@ -17,18 +27,24 @@
   background-color: white !important;
   color: #fcf6f6 !important;
 }
+.nav-body{
+   background-color: #000000 !important;
+}
 
 .travel-info{
-  color: #cf1e44 !important;
+  color: #ffffff !important;
   font-family: fantasy;
   font-weight: bolder;
+  font-size: 30px;
 }
 
 .nav-list{
-  color: #424040 !important;
+  color: #ffffff !important;
   font-size: 18px;
+  border: 1px solid bisque !important;
 }
 
 .nav-list:hover{
-  color: #cf1e44 !important;
+  color: #ffffff !important;
+  background-color: #e299a9 !important;
 }
