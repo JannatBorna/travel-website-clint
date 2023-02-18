@@ -1,0 +1,37 @@
+.footer-icon{
+    font-size: 26px;
+    color: #cf1b54 !important;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.footer-list{
+    margin-left: 450px;
+    padding: 0.8em;
+
+}
+
+.footer-list ul{
+        display: flex;
+        gap: 20px;
+}
+
+.footer-list ul li{
+    list-style: none;
+    color: white !important;
+    cursor: pointer;
+}
+
+.line{
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.sub-footer{
+    background-color: #cf1b54 !important;
+}
+
+.sub-footer small{
+    color: white !important;
+    font-size: 10px;
+}

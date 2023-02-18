@@ -3,6 +3,7 @@
   font-family: monospace;
   font-size: 35px;
   font-weight: bolder;
+  border-bottom: 2px solid #cf1e44 !important;
 }
 
 #toggle {
@@ -15,4 +16,19 @@
 .toggle-bar {
   background-color: white !important;
   color: #fcf6f6 !important;
+}
+
+.travel-info{
+  color: #cf1e44 !important;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+.nav-list{
+  color: #424040 !important;
+  font-size: 18px;
+}
+
+.nav-list:hover{
+  color: #cf1e44 !important;
 }

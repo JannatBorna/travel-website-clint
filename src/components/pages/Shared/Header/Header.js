@@ -16,18 +16,18 @@ return (
           placement="end" 
         >
           <Offcanvas.Header closeButton >
-            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-              Travel Information
+            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} >
+                <span className='travel-info'>Travel Information</span>
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/dashboard">Services</Nav.Link>
-              <Nav.Link href="/dashboard">Blogs</Nav.Link>
-              <Nav.Link href="/dashboard">Contacts</Nav.Link>
-              <Nav.Link href="/dashboard">Login</Nav.Link>
-               <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+              <Nav.Link href="/about" className='nav-list'>About</Nav.Link>
+              <Nav.Link href="/dashboard" className='nav-list'>Services</Nav.Link>
+              <Nav.Link href="/dashboard" className='nav-list'>Blogs</Nav.Link>
+              <Nav.Link href="/dashboard" className='nav-list'>Contacts</Nav.Link>
+              <Nav.Link href="/dashboard" className='nav-list'>Login</Nav.Link>
+               <Nav.Link href="/dashboard" className='nav-list'>Dashboard</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

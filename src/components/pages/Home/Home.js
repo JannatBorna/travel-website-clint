@@ -6,6 +6,7 @@ import OneBanner from '../HomeBanner/OneBanner/OneBanner';
 import SixBanner from '../HomeBanner/SixBanner/SixBanner';
 import ThreeBanner from '../HomeBanner/ThreeBanner/ThreeBanner';
 import TwoBanner from '../HomeBanner/TwoBanner/TwoBanner';
+import Footer from '../Shared/Footer/Footer';
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
             <FiveBanner /> 
             <Counter />
             <SixBanner />
+            <Footer />
         </div>
     );
 };
