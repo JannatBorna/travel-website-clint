@@ -2,11 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import bannerFive from '../../../../images/banner/bannerFive.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faStar, faEarth, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import {  faStar, faEarth, faThumbsUp, faSmile } from "@fortawesome/free-solid-svg-icons";
+
 import './FiveBanner.css';
 
 
 const SixBanner = () => {
+ 
     return (
         <div className='section-gap'>
             <div className='bannerFive'>
@@ -53,27 +55,6 @@ const SixBanner = () => {
                         </Row>
                     </Container>
                 </div>
-            </div>
-
-            <div>
-                <Row>
-                    <Col lg={4} md={4} sm={12}>
-                        <div>
-                            <h3>1</h3>
-                        </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={12}>
-                        <div>
-                            <h3>2</h3>
-                        </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={12}>
-                        <div>
-                            <h3>3</h3>
-                        </div>
-                    </Col>
-
-                </Row>
             </div>
         </div>
     );
