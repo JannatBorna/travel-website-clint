@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import bannerFive from '../../../../images/banner/bannerFive.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faStar, faEarth, faThumbsUp, faSmile } from "@fortawesome/free-solid-svg-icons";
+import {  faStar, faEarth, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 
 import './FiveBanner.css';
 
