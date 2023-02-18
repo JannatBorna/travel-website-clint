@@ -12,7 +12,7 @@ import './SixBanner.css';
 
 const FiveBanner = () => {
 return (
-  <div className="bg-black section-gap">
+  <div className="bg-black sixbanner-gap">
     <Container>
       <div className="p-4">
         <h2 className="text-white">

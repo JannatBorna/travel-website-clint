@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from '../Counter/Counter';
 import FiveBanner from '../HomeBanner/FiveBanner/FiveBanner';
 import FourBanner from '../HomeBanner/FourBanner/FourBanner';
 import OneBanner from '../HomeBanner/OneBanner/OneBanner';
@@ -15,7 +16,8 @@ const Home = () => {
             <TwoBanner /> 
             <ThreeBanner />
             <FourBanner />
-            <FiveBanner />
+            <FiveBanner /> 
+            <Counter />
             <SixBanner />
         </div>
     );
