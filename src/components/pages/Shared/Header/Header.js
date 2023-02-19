@@ -8,7 +8,7 @@ return (
     {[false].map((expand) => (
     <Navbar key={expand} expand={expand} className="mb-3">
       <Container fluid>
-        <Navbar.Brand href="/home" id="logo">YourTravel</Navbar.Brand>
+        <Navbar.Brand href="/home" id="logo"><span className='text-info'>Y</span>our<span className='dot-nav'>&#9642;</span>Tra<span className='text-info'>v</span>el</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="toggle"
         />
         <Navbar.Offcanvas

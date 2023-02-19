@@ -1,0 +1,38 @@
+.about-1{
+   margin-top: -97px;
+}
+.about-1 img{
+    width: 100%;
+    height: 90vh;
+}
+.about-button-1{
+    margin-top: -780px;
+    width: 19%;
+    height: 10vh;
+    background-color: #ffffff !important;
+    color: #ea0e4c !important;
+    border: 1px solid white !important;
+}
+
+.about-2 p{
+    font-family:'Gill Sans';
+    color: #ad4965 !important;
+}
+
+.about-3 small{
+    font-family: fantasy;
+    color: #ea0e4c !important;
+    font-weight: 600;
+}
+
+.about-3 h4{
+    color: #646061 !important;
+}
+
+.about-3 h5{
+    color: #ea0e4c !important;
+}
+
+.about-3 ul li{
+    font-size: 15px;
+}

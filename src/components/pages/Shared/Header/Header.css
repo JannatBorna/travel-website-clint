@@ -1,11 +1,14 @@
 #logo {
   color: #cf1e44 !important;
   font-family: monospace;
-  font-size: 35px;
+  font-size: 27px;
   font-weight: bolder;
-  /* border-bottom: 2px solid #cf1e44 !important; */
 }
 
+.dot-nav{
+  color: white !important;
+  font-size: 10px;
+}
 .close-button{
   color: #ffffff !important;
   background-color: #cf1e44 !important;
@@ -14,12 +17,12 @@
 #toggle {
   font-size: 15px;
   background-color: #cf1e44 !important;
-  border: 3px solid #cf1e44 !important;
+  border: 3px solid #fffdfd !important;
 }
 
 #toggle:hover{
-  /* background-color: #efeced !important; */
-  border: 1px solid #ffffff !important;
+  border: 1px solid #d9084e !important;
+  background-color: #ffffff !important;
 }
 
 

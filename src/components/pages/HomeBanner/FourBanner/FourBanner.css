@@ -1,5 +1,8 @@
 .border-div {
-  border-left: 3px solid #cf1e44;
-  border-top: 3px solid #cf1e44;
-  border-bottom: 3px solid #cf1e44;
+  border: 3px solid #cf1e44;
+
+}
+
+.fourBanner img{
+  margin-left: -40px;
 }

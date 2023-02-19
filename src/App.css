@@ -1,9 +1,13 @@
 .section-gap{
   margin-top: 50px;
 }
+ p{
+  font-size: 15px;
+ }
 
-
-
+ hr{
+  color: #282c34 !important;
+ }
 
 .App {
   text-align: center;
