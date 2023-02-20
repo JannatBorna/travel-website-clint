@@ -52,37 +52,31 @@ const About = () => {
                     </Col>
                     
                     <Col lg={4} md={4} sm={12}>
-                        <div className='cursor-pointer text-end about-3'>
+                        <div className='blog-list'>
                             <h5>RECENT POSTS</h5>
-                            <ul>
-                                <li>Standard Blog Post With Image</li>
-                                <li>Amazing Fullwidth Post</li>
-                                <li>Link Post</li>
-                                <li>Quote Post</li>
-                                <li>Sidebar Post With Slideshow</li>
-                            </ul>
+                                <span>Standard Blog Post With Image</span>
+                                <span className='my-2'>Amazing Fullwidth Post</span>
+                                <span>Link Post</span>
+                                <span className='my-2'>Quote Post</span>
+                                <span>Sidebar Post With Slideshow</span>
                         </div>
 
-                        <div className='cursor-pointer text-end about-3'>
+                        <div className='my-5 blog-list'>
                             <h5>CATEGORIES</h5>
-                            <ul>
-                                <li>Business</li>
-                                <li>Business</li>
-                                <li>Ecommerce</li>
-                                <li>Photography</li>
-                                <li>Wordpress</li>
-                            </ul>
+                                <span>Business</span>
+                                <span className='my-2'>Business</span>
+                                <span>Ecommerce</span>
+                                <span className='my-2'>Photography</span>
+                                <span>Wordpress</span>
                         </div>
                         
-                        <div className='cursor-pointer text-end about-3'>
+                        <div className='my-5 blog-list'>
                             <h5>ARCHIVESS</h5>
-                            <ul>
-                                <li>12 March 2022</li>
-                                <li>24 April 2022</li>
-                                <li>30 June 2022</li>
-                                <li>05 August 2023</li>
-                                <li>20 January 2023</li>
-                            </ul>
+                                <span>12 March 2022</span>
+                                <span className='my-2'>24 April 2022</span>
+                                <span>30 June 2022</span>
+                                <span className='my-2'>05 August 2023</span>
+                                <span>20 January 2023</span>
                         </div>
                     </Col>
                 </Row>

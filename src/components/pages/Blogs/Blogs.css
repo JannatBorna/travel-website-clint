@@ -18,3 +18,26 @@
 .blogs{
     margin-top: 400px;
 }
+
+.blog-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    margin-left: 130px;
+}
+.blog-list h5{
+    color: #615e5f !important;
+}
+
+.blog-list span{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.blog-icon{
+    color: #cd2152 !important;  
+    font-size: 20px;
+    cursor: pointer;
+}
+
