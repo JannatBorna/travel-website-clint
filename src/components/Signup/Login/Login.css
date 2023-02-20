@@ -1,0 +1,66 @@
+.login-bg{
+    margin-top: -90px;
+    height: 57vh;
+    background-color: black !important;
+}
+
+.login-bg-2{
+    background-color: #c2a31c !important;
+    height: 56vh;
+}
+
+.login{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -48%;
+    width: 38%;
+    height: 86vh;
+    border: 1px solid white !important;
+}
+
+@media screen and (max-width: 1024px){
+    .login{
+    margin-top: -90%;
+    width: 60%;
+    height: 85vh;
+   }
+
+   .login-bg{
+    margin-top: -90px;
+    height: 52vh;
+    
+   }
+
+    .login-bg-2{
+    height: 50vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .login{
+        margin-top: -180%;
+        width: 40%;
+        height: 90vh;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .login{
+    margin-top: -150%;
+    width: 80%;
+    height: 85vh;
+    border-radius: 8px;
+   }
+   .login-bg{
+    margin-top: -90px;
+    height: 52vh;
+ }
+
+  .login-bg-2{
+  height: 50vh;
+  }
+}
+

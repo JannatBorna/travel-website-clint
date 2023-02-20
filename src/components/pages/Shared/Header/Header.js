@@ -6,7 +6,7 @@ const Header = () => {
 return (
   <div>
     {[false].map((expand) => (
-    <Navbar key={expand} expand={expand} className="mb-3">
+    <Navbar key={expand} expand={expand} className="mb-3" fixed="top">
       <Container fluid>
         <Navbar.Brand href="/home" id="logo"><span className='text-white'>Y</span>our<span className='dot-nav'>&#9642;</span>Tra<span className='text-white'>v</span>el</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="toggle"

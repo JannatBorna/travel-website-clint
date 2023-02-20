@@ -9,6 +9,7 @@ import About from './components/pages/About/About';
 import Home from './components/pages/Home/Home';
 import Contact from './components/pages/Contact/Contact';
 import Blogs from './components/pages/Blogs/Blogs';
+import Login from './components/Signup/Login/Login';
 
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-         <Route path="/about" element={<About />} />
-          <Route path="/blogs" element={<Blogs />} />
-           <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/contact" element={<Contact />} />
       
        
       </Routes>
