@@ -7,9 +7,9 @@ const About = () => {
 
     return (
         <div>
-            <div className='about-1'>
+            <div className='nav-banner'>
                 <img src={about1} alt="" />     
-                <Button className='about-button-1 fs-1 cursor-text'>About Us</Button>
+                <Button className='nav-banner-button fs-1 cursor-text'>About Us</Button>
             </div>
             
             <Container>

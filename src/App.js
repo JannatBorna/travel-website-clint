@@ -7,8 +7,8 @@ import {
 import Header from './components/pages/Shared/Header/Header';
 import About from './components/pages/About/About';
 import Home from './components/pages/Home/Home';
-import Blog from './components/pages/Blog/Blog';
 import Contact from './components/pages/Contact/Contact';
+import Blogs from './components/pages/Blogs/Blogs';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blogs" element={<Blogs />} />
            <Route path="/contact" element={<Contact />} />
       
        

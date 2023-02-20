@@ -1,11 +1,11 @@
-.about-1{
+.nav-banner{
    margin-top: -97px;
 }
-.about-1 img{
+.nav-banner img{
     width: 100%;
     height: 90vh;
 }
-.about-button-1{
+.anav-banner-button{
     margin-top: -780px;
     width: 19%;
     height: 10vh;
@@ -17,6 +17,11 @@
 .about-2 p{
     font-family:'Gill Sans';
     color: #ad4965 !important;
+}
+
+.about-2 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #504e4f !important;   
 }
 
 .about-3 small{
