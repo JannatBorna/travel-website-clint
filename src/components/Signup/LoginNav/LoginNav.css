@@ -1,0 +1,8 @@
+.sign{
+    color: black !important;
+    font-weight: 600;
+}
+
+.sign:hover{
+    color: #cb0e47 !important;
+}
