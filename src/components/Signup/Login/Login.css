@@ -20,6 +20,29 @@
     border: 1px solid white !important;
 }
 
+.sign-up{
+    display: flex;
+    padding: 0.5em;
+    border: 1px solid white !important;
+    width: 45%;
+    background-color: white !important;
+}
+
+.sign-up a{
+    color: black !important;
+    text-decoration: none;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.sign-up img{
+    width: 30%;
+    cursor: pointer;
+}
+
+
+
+
 @media screen and (max-width: 1024px){
     .login{
     margin-top: -90%;
