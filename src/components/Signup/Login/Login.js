@@ -1,9 +1,9 @@
 import React from 'react';
-import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
-import google from '../../../images/others/google.png';
-import facebook from '../../../images/others/facebook-2.png';
+import { faFacebookSquare, faGoogle } from "@fortawesome/free-brands-svg-icons";
+
 import LoginNav from '../LoginNav/LoginNav';
 import './Login.css';
 
@@ -20,17 +20,26 @@ const Login = () => {
                         <LoginNav />
                         <h2 className='mt-3 text-white'> <FontAwesomeIcon icon={faBarsStaggered} className='theme' />  Network</h2>
                         <p className='text-white'>Login into Your account</p>
-                        <div className='p-3 mx-5 d-flex'>
-                            <div className='sign-up'>
-                                <img src={google} alt="" className='mx-1'/>
-                                <a href="/" >Google</a>
+
+                        <form>
+                            <label for="femail" className='p-3 mx-4 text-white fw-bold'>Email :</label>
+                            <input type="email" id="email" name="email"/>
+                            <br />
+                             <label for="psw" className='mx-4 text-white fw-bold'>Password :</label>
+                             <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required />
+                             <p>Forgot Password</p>
+                        </form>  
+                            
+                            <div>
+                                <p className='text-white'>New user? <span className='text-danger'>SIGN UP</span> now</p>
                             </div>
 
-                            <div className='mx-5 sign-up'>
-                                <img src={facebook} alt="" className='mx-1'/>
-                                <a href="/">Facebook</a>
+                            <div className='mt-5 sign-up'>
+                                <a href="/" className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</a>
+                                <a href="/" className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</a>
+                                {/* <a href="/"><FontAwesomeIcon icon={faGithub}/> GitHub</a> */}
                             </div>
-                        </div>
+                        
                     </div>
                 </Col>
             </Row>

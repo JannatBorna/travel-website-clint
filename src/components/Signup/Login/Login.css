@@ -20,27 +20,55 @@
     border: 1px solid white !important;
 }
 
-.sign-up{
-    display: flex;
-    padding: 0.5em;
-    border: 1px solid white !important;
-    width: 45%;
-    background-color: white !important;
+form {
+    margin-top: 80px;
+    text-align: start;
 }
 
-.sign-up a{
-    color: black !important;
-    text-decoration: none;
-    margin-top: 4px;
-    font-size: 16px;
+form input {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: #c2a31c !important;
 }
 
-.sign-up img{
-    width: 30%;
+form input:focus{
+    background-color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: none;
+}
+
+form p{
+    text-align: center;
+    color: #ffffff !important;
     cursor: pointer;
 }
 
+.sign-up{
+    display: flex;
+    padding: 0.5em;
+    width: 290px;
+    height: 8vh;
+    margin-left: 150px;
+    margin-top: -80px;
+}
 
+.sign-up a{
+    color: #ffffff !important;
+    text-decoration: none;
+    /* border: 1px solid white !important; */
+}
+
+.facebook{
+    background-color: #2886f1 !important;
+}
+
+.google{
+    background-color: #f4455a !important;
+}
 
 
 @media screen and (max-width: 1024px){

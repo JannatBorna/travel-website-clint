@@ -11,3 +11,6 @@
 <!-- login page -->
 <!-- https://www.figma.com/community/file/1160207138067363752 -->
 <!-- https://search.muz.li/NTk5OWM1ZDVl -->
+
+<!-- password -->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_password_val -->
