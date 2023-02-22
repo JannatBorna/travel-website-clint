@@ -2,3 +2,44 @@
     color: #25b61d !important;
     font-family:fantasy;
 }
+
+.reg-bg{
+    margin-top: -90px;
+    height: 66vh;
+    background-color: black !important;
+}
+
+.reg-bg-2{
+    background-color: #c2a31c !important;
+    height: 66vh;
+}
+
+.register{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -63%;
+    width: 40%;
+    height: 96vh;
+    border: 1px solid white !important;
+}
+
+form {
+    margin-top: 80px;
+    text-align: start;
+}
+
+form input {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: #c2a31c !important;
+}
+
+.password{
+    font-size: 12px;
+}
