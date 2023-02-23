@@ -9,19 +9,15 @@
 }
 
 .main-button:hover {
-  background-color: #cf1e44;
+  background-color: #0ed8ea;
   color: white;
-  border: 1px solid #cf1e44;
+  border: 1px solid #0ed8ea;
   z-index: 1;
   box-shadow: 0 8px 50px #fff9f933;
   transform: scale(1.05);
 }
 /* common style */
 
-.icon-color {
-  color: #cf1e44;
-  font-size: 35px;
-}
 
 .last-banner-div {
   padding: 1.5em;

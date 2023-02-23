@@ -1,27 +1,34 @@
 #logo {
-  color: #cf1e44 !important;
+  padding: 0.3em;
+  color: #0ed8ea !important;
   font-family: monospace;
   font-size: 27px;
   font-weight: bolder;
+  border: 1px solid #ea0e2f;
+  background-color: #1f0707 !important;
+  /* border-end-end-radius: 100px; */
+  border-end-start-radius: 100px;
+  border-start-end-radius: 100px;
+  border-start-start-radius: 100px;
 }
 
 .dot-nav{
-  color: white !important;
+  color: #c20e47 !important;
   font-size: 10px;
 }
 .close-button{
   color: #ffffff !important;
-  background-color: #cf1e44 !important;
+  background-color: #0ed8ea !important;
 }
 
 #toggle {
   font-size: 15px;
-  background-color: #cf1e44 !important;
-  border: 3px solid #fffdfd !important;
+  background-color: #0ed8ea !important;
+  border: 3px solid #0ed8ea !important;
 }
 
 #toggle:hover{
-  border: 1px solid #d9084e !important;
+  border: 3px solid #0ed8ea !important;
   background-color: #ffffff !important;
 }
 
@@ -35,7 +42,7 @@
 }
 
 .travel-info{
-  color: #ffffff !important;
+  color: #e91437 !important;
   font-family: fantasy;
   font-weight: bolder;
   font-size: 30px;
@@ -45,9 +52,10 @@
   color: #ffffff !important;
   font-size: 18px;
   border: 1px solid bisque !important;
+  letter-spacing: 3px;
 }
 
 .nav-list:hover{
   color: #ffffff !important;
-  background-color: #e299a9 !important;
+  background-color: #11484d !important;
 }

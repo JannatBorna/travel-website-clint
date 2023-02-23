@@ -1,3 +1,6 @@
+.counter-gap{
+    margin-top: 50px;
+}
 .wrapper{
     /* border: 1px solid #01ea3f !important; */
     position: absolute;
@@ -19,18 +22,19 @@
     padding: 1em 0;
     position: relative;
     border-radius: 0.5em;
-    background-color: #c2c0c0;
-    border-bottom: 10px solid #bf153d !important;
+    /* background-color: #000000; */
+    border: 2px solid #01ea3f !important;
+    border-bottom: 10px solid #0ed8ea !important;
 }
 
 .count-icon{
-    color: #ac113d !important;
+    color: #0ed8ea !important;
     font-size: 2.5em;
     text-align: center;
 }
 
 span.num{
-    color: white !important;
+    color: #000000 !important;
     display: grid;
     place-items: center;
     font-weight: 600;
@@ -38,7 +42,7 @@ span.num{
 }
 
 span.text{
-    color: white !important;
+    color: #000000 !important;
     font-size: 1em;
     text-align: center;
     pad: 0.7em 0;

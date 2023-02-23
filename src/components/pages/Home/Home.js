@@ -6,7 +6,7 @@ import OneBanner from '../HomeBanner/OneBanner/OneBanner';
 import SixBanner from '../HomeBanner/SixBanner/SixBanner';
 import ThreeBanner from '../HomeBanner/ThreeBanner/ThreeBanner';
 import TwoBanner from '../HomeBanner/TwoBanner/TwoBanner';
-import Services from '../Services/Services/Services';
+// import Services from '../Services/Services/Services';
 import Footer from '../Shared/Footer/Footer';
 
 
@@ -21,7 +21,7 @@ const Home = () => {
             <FiveBanner /> 
             <Counter />
             <SixBanner />
-            <Services />
+            {/* <Services /> */}
             <Footer />
         </div>
     );

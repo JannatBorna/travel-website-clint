@@ -8,7 +8,7 @@ return (
     {[false].map((expand) => (
     <Navbar key={expand} expand={expand} className="mb-3" fixed="top">
       <Container fluid>
-        <Navbar.Brand href="/home" id="logo"><span className='text-white'>Y</span>our<span className='dot-nav'>&#9642;</span>Tra<span className='text-white'>v</span>el</Navbar.Brand>
+        <Navbar.Brand href="/home" id="logo"><span className='text-danger'>Y</span>our<span className='dot-nav'>&#9642;</span>Tra<span className='text-danger'>v</span>el</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="toggle"
         />
         <Navbar.Offcanvas
@@ -28,7 +28,8 @@ return (
               <Nav.Link href="/blogs" className='text-center nav-list'>Blogs</Nav.Link>
               <Nav.Link href="/contact" className='my-4 text-center nav-list'>Contact Us</Nav.Link>
               <Nav.Link href="/login" className='text-center nav-list'>Login</Nav.Link>
-               <Nav.Link href="/dashboard" className='my-4 text-center nav-list'>Dashboard</Nav.Link>
+              <Nav.Link href="/dashboard" className='my-4 text-center nav-list'>Dashboard</Nav.Link>
+              <Nav.Link href="/" className='my-4 text-center nav-list'>Back Home</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

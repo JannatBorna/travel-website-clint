@@ -10,7 +10,7 @@
     width: 19%;
     height: 10vh;
     background-color: #ffffff !important;
-    color: #ea0e4c !important;
+    color: #0ed8ea !important;
     border: 1px solid white !important;
     letter-spacing: 7px;
 }
@@ -27,7 +27,7 @@
 
 .about-3 small{
     font-family: fantasy;
-    color: #ea0e4c !important;
+    color: #0ed8ea!important;
     font-weight: 600;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .about-3 h5{
-    color: #ea0e4c !important;
+    color: #0ed8ea !important;
 }
 
 .about-3 ul li{

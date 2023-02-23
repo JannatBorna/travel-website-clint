@@ -25,7 +25,7 @@ const Counter = ({className, ...rest}) => {
  });
    
     return (
-        <div>
+        <div className='counter-gap'>
             <Container>
                 <div className='wrapper'>
                     <div className='counter'>

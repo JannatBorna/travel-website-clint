@@ -1,6 +1,6 @@
 .footer-icon{
     font-size: 20px;
-    color: #cf1b54 !important;
+    color: #0ed8ea !important;
     margin-top: 50px;
     cursor: pointer;
 }
@@ -28,10 +28,10 @@
 }
 
 .sub-footer{
-    background-color: #cf1b54 !important;
+    background-color: #0ed8ea !important;
 }
 
 .sub-footer small{
-    color: white !important;
+    color: #000000 !important;
     font-size: 10px;
 }
