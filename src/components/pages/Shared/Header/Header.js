@@ -24,7 +24,7 @@ return (
           <Offcanvas.Body className='nav-body'>
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="/about" className='text-center nav-list '>About Us</Nav.Link>
-              <Nav.Link href="/shop" className='my-4 text-center nav-list'>Shop</Nav.Link>
+              <Nav.Link href="/shops" className='my-4 text-center nav-list'>Shop</Nav.Link>
               <Nav.Link href="/blogs" className='text-center nav-list'>Blogs</Nav.Link>
               <Nav.Link href="/contact" className='my-4 text-center nav-list'>Contact Us</Nav.Link>
               <Nav.Link href="/login" className='text-center nav-list'>Login</Nav.Link>
