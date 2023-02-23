@@ -23,10 +23,10 @@ return (
           </Offcanvas.Header>
           <Offcanvas.Body className='nav-body'>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="/about" className='text-center nav-list '>About</Nav.Link>
+              <Nav.Link href="/about" className='text-center nav-list '>About Us</Nav.Link>
               <Nav.Link href="/services" className='my-4 text-center nav-list'>Services</Nav.Link>
               <Nav.Link href="/blogs" className='text-center nav-list'>Blogs</Nav.Link>
-              <Nav.Link href="/contacts" className='my-4 text-center nav-list'>Contacts</Nav.Link>
+              <Nav.Link href="/contact" className='my-4 text-center nav-list'>Contact Us</Nav.Link>
               <Nav.Link href="/login" className='text-center nav-list'>Login</Nav.Link>
                <Nav.Link href="/dashboard" className='my-4 text-center nav-list'>Dashboard</Nav.Link>
             </Nav>

@@ -14,3 +14,8 @@
 
 <!-- password -->
 <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_password_val -->
+
+<!-- Contact page -->
+<!-- https://dribbble.com/shots/3631410-Dark-Modern-Style-Contact-Us-Page/attachments/810934 -->
+<!-- https://www.pinterest.com/pin/390616967663638681/ -->
+<!-- https://www.pinterest.com/pin/351912461389539/ -->

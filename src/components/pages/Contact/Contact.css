@@ -1,0 +1,35 @@
+.contact-banner{
+   margin-top: -97px;
+}
+.contact-banner img{
+    width: 100%;
+    height: 90vh;
+}
+.contact-banner-button{
+    margin-top: -620px;
+    width: 29%;
+    height: 10vh;
+    background-color: #ffffff !important;
+    color: #ea0e4c !important;
+    border: 1px solid white !important;
+    letter-spacing: 9px;
+}
+
+.contact-touch span a{
+    text-decoration: none;
+    color: #5d5c5c !important;
+}
+
+.contact-touch-2{
+    border-left: 3px solid #db1363 !important;
+}
+
+.contact-touch-2 span a{
+    text-decoration: none;
+    color: #535353 !important;
+}
+
+.contact-headline{
+    color: #5d2337 !important;
+    font-family:monospace;
+}
