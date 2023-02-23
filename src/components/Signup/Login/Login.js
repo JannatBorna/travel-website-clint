@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookSquare, faGoogle } from "@fortawesome/free-brands-svg-icons";
@@ -28,13 +28,15 @@ const Login = () => {
                              <label for="psw" className='mx-4 text-white fw-bold'>Password :</label>
                              <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required />
                              <p>Forgot Password</p>
+                            <br />
+                            <Button className='my-4 login-btn'>LOGIN</Button>
                         </form>  
                             
                             <div>
                                 <p className='text-white'>New user? <span className='text-danger'>SIGN UP</span> now</p>
                             </div>
 
-                            <div className='mt-5 sign-up'>
+                            <div className='mt-2 sign-up'>
                                 <a href="/" className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</a>
                                 <a href="/" className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</a>
                                 {/* <a href="/"><FontAwesomeIcon icon={faGithub}/> GitHub</a> */}

@@ -21,7 +21,7 @@
     text-align: center;
     margin-top: -63%;
     width: 40%;
-    height: 96vh;
+    height: 110vh;
     border: 1px solid white !important;
 }
 
@@ -42,4 +42,20 @@ form input {
 
 .password{
     font-size: 12px;
+}
+
+.login-btn{
+    background-color: #e11969 !important;
+    color: #ffffff !important;
+    border: 2px solid #e11969!important;
+    width: 32%;
+    letter-spacing: 8px;
+   margin-left: 170px;
+
+}
+
+.login-btn:hover{
+    background-color: #ffffff !important;
+    color: #e11969 !important;
+    border: 2px solid #ffffff !important;
 }

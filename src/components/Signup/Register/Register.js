@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import LoginNav from '../LoginNav/LoginNav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
@@ -40,6 +40,8 @@ const Register = () => {
                             [a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and 
                             one uppercase and lowercase letter, and at least 8 or more 
                             characters" required />
+                            <br />
+                            <Button className='my-4  login-btn'>REGISTER</Button>
                         </form>  
                             
                             <div>

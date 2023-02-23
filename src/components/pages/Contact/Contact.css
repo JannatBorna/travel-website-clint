@@ -15,21 +15,51 @@
     letter-spacing: 9px;
 }
 
+.contact{
+    background-color: #262323 !important;
+    margin-top: -85px;
+    height: 250vh;
+}
+
+textarea:focus{
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
+    border-radius: none;
+}
+
 .contact-touch span a{
     text-decoration: none;
-    color: #5d5c5c !important;
+    color: #ffffff !important;
 }
 
 .contact-touch-2{
-    border-left: 3px solid #db1363 !important;
+    border-left: 3px solid #df146c !important;
 }
 
 .contact-touch-2 span a{
     text-decoration: none;
-    color: #535353 !important;
+    color: #ffffff !important;
 }
 
 .contact-headline{
-    color: #5d2337 !important;
+    color: #ebced8 !important;
     font-family:monospace;
+}
+
+.contact-message{
+    margin-top: 130px;
+}
+
+.submit{
+    background-color: #e11969 !important;
+    color: #ffffff !important;
+    border: 1px solid #e11969 !important;
+    width: 15%;
+    letter-spacing: 8px;
+}
+
+.submit:hover{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #e11969 !important;
 }
