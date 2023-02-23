@@ -11,7 +11,7 @@ import Contact from './components/pages/Contact/Contact';
 import Blogs from './components/pages/Blogs/Blogs';
 import Login from './components/Signup/Login/Login';
 import Register from './components/Signup/Register/Register';
-import Services from './components/pages/Services/Services/Services';
+import Shops from './components/pages/Shop/Shops/Shops';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/shop" element={<Shops />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
       
