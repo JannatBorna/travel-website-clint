@@ -13,7 +13,6 @@ import Login from './components/Signup/Login/Login';
 import Register from './components/Signup/Register/Register';
 import Shops from './components/pages/Shop/Shops/Shops';
 
-
 function App() {
   return (
     <div className="App">
