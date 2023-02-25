@@ -2,7 +2,7 @@
     {
         "id": "b1",
         "name": "Modern Hat",
-        "img": "https://i.ibb.co/0cZnqwQ/serv-1.png",
+        "img": "https://i.ibb.co/cLNBjN7/shop-1.jpg",
         "price": "130",
         "rating":"4"
 
@@ -10,7 +10,7 @@
     {
         "id": "b2",
         "name": "Skis",
-        "img": "https://i.ibb.co/RBXSf75/serv-2.png",
+        "img": "https://i.ibb.co/mXQWZbz/shop-2.jpg",
         "price": "110",
         "rating":"5"
 
@@ -18,14 +18,14 @@
     {
         "id": "b3",
         "name": "Camera",
-        "img": "https://i.ibb.co/Gcgfcs3/serv-3.png",
+        "img": "https://i.ibb.co/0y45Py6/shop-3.jpg",
         "price": "100",
         "rating":"4"
     },
     {
         "id": "b4",
         "name": "Backpack",
-        "img": "https://i.ibb.co/L15F8tV/serv-4.png",
+        "img": "https://i.ibb.co/GnKt5G9/shop-4.jpg",
         "price": "80",
         "rating":"3"
 
@@ -33,79 +33,106 @@
     {
         "id": "b5",
         "name": "Towel",
-        "img": "https://i.ibb.co/py8hrWG/serv-5.png",
+        "img": "https://i.ibb.co/kJbxBG9/shop-5.jpg",
         "price": "100",
         "rating":"4"
     },
     {
         "id": "b6",
         "name": "Compass",
-        "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+        "img": "https://i.ibb.co/q7Lnhf5/shop-6.jpg",
         "price": "110",
         "rating":"5"
     },
     {
         "id": "b7",
         "name": "Thermos",
-        "img": "https://i.ibb.co/rHdPzX0/serv-15.jpg",
+        "img": "https://i.ibb.co/mv35pPV/shop-7.jpg",
         "price": "100",
         "rating":"4"
     },
     {
         "id": "b8",
         "name": "Sunglasses",
-        "img": "https://i.ibb.co/VgyqQjt/serv-7.png",
+        "img": "https://i.ibb.co/pwK9kSg/shop-8.jpg",
         "price": "90",
         "rating":"5"
     },
     {
         "id": "b9",
+        "name": "Star",
+        "img": "https://i.ibb.co/19SBrHh/shop-9.jpg",
+        "price": "160",
+        "rating":"5"
+    },
+    {
+        "id": "b10",
+        "name": "Flip-flops",
+        "img": "https://i.ibb.co/fGxKGMv/shop-10.jpg",
+        "price": "130",
+        "rating":"5"
+    },
+    {
+        "id": "b11",
         "name": "Summer Hat",
-        "img": "https://i.ibb.co/MV99BJM/serv-8.png",
+        "img": "https://i.ibb.co/ssrWn8x/shop-11.jpg",
         "price": "90",
         "rating":"3"
     },
     {
-        "id": "b10",
+        "id": "b12",
         "name": "Rope",
-        "img": "https://i.ibb.co/CtY3qXG/serv-9.png",
+        "img": "https://i.ibb.co/fFLd5RT/shop-12.jpg",
         "price": "100",
         "rating":"4"
-    },
-    {
-        "id": "b11",
-        "name": "Flip-flops",
-        "img": "https://i.ibb.co/T8bHJ6x/serv-10.png",
-        "price": "130",
-        "rating":"5"
-    },
-    {
-        "id": "b12",
-        "name": "Star",
-        "img": "https://i.ibb.co/GtHJQ6G/serv-11.png",
-        "price": "160",
-        "rating":"5"
-    },
-
-    {
-        "id": "b12",
-        "name": "Power Bank",
-        "img": "https://i.ibb.co/yYbcwB3/serv-12.jpg",
-        "price": "130",
-        "rating":"5"
-    },
+    },    
     {
         "id": "b13",
-        "name": "Umbrella",
-        "img": "https://i.ibb.co/47G7xRk/serv-13.jpg",
+        "name": "Lamp",
+        "img": "https://i.ibb.co/t46wM6z/shop-13.jpg",
+        "price": "130",
+        "rating":"5"
+    },
+    {
+        "id": "b14",
+        "name": "Skateboard",
+        "img": "https://i.ibb.co/nsNTd7y/shop-14.jpg",
         "price": "110",
         "rating":"4"
     },
 
     {
-        "id": "b14",
+        "id": "b15",
+        "name": "Bag",
+        "img": "https://i.ibb.co/DpLt3z7/shop-15.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b16",
+        "name": "Summer Hat",
+        "img": "https://i.ibb.co/ssrWn8x/shop-11.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b17",
         "name": "Tent",
-        "img": "https://i.ibb.co/1n0Mv3D/serv-14.jpg",
+        "img": "https://i.ibb.co/YWKysM3/shop-16.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b18",
+        "name": "Power Bank",
+        "img": "https://i.ibb.co/DpLt3z7/shop-15.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b19",
+        "name": "Umbrella",
+        "img": "https://i.ibb.co/6vhjtXY/shop-18.jpg",
         "price": "120",
         "rating":"5"
     }

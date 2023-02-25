@@ -3,9 +3,8 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import contactBanner from '../../../images/others/login.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt, faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import { faFacebookSquare, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import './Contact.css';
 import Footer from '../Shared/Footer/Footer';
+import './Contact.css';
 
 const Contact = () => {
     return (
