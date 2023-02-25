@@ -4,11 +4,8 @@
   font-family: monospace;
   font-size: 27px;
   font-weight: bolder;
-  border: 1px solid #ea0e2f;
-  background-color: #1f0707 !important;
-  /* border-end-end-radius: 100px; */
+  border-bottom: 6px solid #ea0e2f;
   border-end-start-radius: 100px;
-  border-start-end-radius: 100px;
   border-start-start-radius: 100px;
 }
 
@@ -53,9 +50,11 @@
   font-size: 18px;
   border: 1px solid bisque !important;
   letter-spacing: 3px;
+  font-weight: 600;
 }
 
 .nav-list:hover{
-  color: #ffffff !important;
-  background-color: #11484d !important;
+  color: #000000 !important;
+  background-color: #10d2e4 !important;
+  border-bottom: 2px solid red !important;
 }
