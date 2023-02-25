@@ -1,7 +1,4 @@
 <!-- https://themes.themegoods.com/?theme=Altair -->
-
-
-
 <!-- footer design -->
 <!-- https://designshack.net/articles/layouts/15-tips-for-creating-a-great-website-footer/ -->
 
@@ -19,7 +16,6 @@
 <!-- https://dribbble.com/shots/3631410-Dark-Modern-Style-Contact-Us-Page/attachments/810934 -->
 <!-- https://www.pinterest.com/pin/390616967663638681/ -->
 <!-- https://www.pinterest.com/pin/351912461389539/ -->
-
 
 <!-- services -->
 <!-- https://setsail.qodeinteractive.com/shop/ -->
