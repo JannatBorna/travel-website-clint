@@ -49,5 +49,11 @@
 
 .price{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
+    color: #1bafc0 !important;
+}
+
+.rating{
+    /* color: #1bafc0 !important; */
+    margin-left: 170px;
 }
