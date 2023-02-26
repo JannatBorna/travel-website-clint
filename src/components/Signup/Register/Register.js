@@ -41,18 +41,17 @@ const Register = () => {
                             one uppercase and lowercase letter, and at least 8 or more 
                             characters" required />
                             <br />
-                            <Button className='my-4  login-btn'>REGISTER</Button>
+                            <Button className='my-4 login-btn'>REGISTER</Button>
                         </form>  
                             
                             <div>
-                                <p className='text-white'>All ready Register? <span 
-                                className='text-danger'>SIGN IN</span> now</p>
+                                <p className='text-white'>All ready Register?
+                                <a href="/login" className='text-danger'>SIGN IN</a> now</p>
                             </div>
 
                             <div className='mt-1 sign-up'>
                                 <a href="/" className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</a>
                                 <a href="/" className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</a>
-                                {/* <a href="/"><FontAwesomeIcon icon={faGithub}/> GitHub</a> */}
                             </div>
                         
                     </div>

@@ -1,0 +1,11 @@
+.shops{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 13px;
+}
+
+.shop-gap{
+    padding: 2em;
+    margin-top: 400px;
+    box-shadow: #63636333 0px 2px 8px 0px;
+}

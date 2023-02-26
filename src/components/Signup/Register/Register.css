@@ -46,11 +46,12 @@ form input {
 
 .login-btn{
     background-color: #0ed8ea !important;
-    color: #433939 !important;
+    color: #ffffff !important;
     border: 2px solid #0ed8ea!important;
-    width: 32%;
+    width: 34%;
     letter-spacing: 8px;
-   margin-left: 170px;
+    margin-left: 170px;
+    font-weight: 600;
 
 }
 

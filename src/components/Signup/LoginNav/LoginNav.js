@@ -7,10 +7,10 @@ const LoginNav = () => {
         <div>
           {/* <Container> */}
             <Navbar bg="white" variant="white">
-          <Nav className="me-auto text-start">
+          <Nav className="cursor-pointer me-auto text-start">
             <Nav.Link href="/login" className='sign'>SIGN IN</Nav.Link>
           </Nav>
-          <Nav className='text-end'>
+          <Nav className='cursor-pointer text-end'>
              <Nav.Link href="/register" className='sign'>SIGN UP</Nav.Link>
           </Nav>
       </Navbar>

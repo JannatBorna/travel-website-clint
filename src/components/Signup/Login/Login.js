@@ -33,7 +33,7 @@ const Login = () => {
                         </form>  
                             
                             <div>
-                                <p className='text-white'>New user? <span className='text-danger'>SIGN UP</span> now</p>
+                                <p className='text-white'>New user? <a href="/register" className='text-danger'>SIGN UP</a> now</p>
                             </div>
 
                             <div className='mt-2 sign-up'>
