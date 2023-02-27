@@ -6,6 +6,28 @@
 
 .shop-gap{
     padding: 2em;
-    margin-top: 400px;
+    margin-top: 300px;
     box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+
+.shop-popular h5{
+    font-size: 13px;
+}
+
+.shop-popular h6{
+    font-size: 11px;
+    color: #f7e223 !important;
+}
+
+.shop-tour{
+    padding: 2em;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #1bafc0 !important;
+    border-radius: 100px;
+    background-color: #1bafc0 !important;
+    color: white !important;
+    margin-left: 130px;
+    margin-top: 200px;
 }

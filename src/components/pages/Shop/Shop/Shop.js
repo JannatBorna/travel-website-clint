@@ -8,8 +8,6 @@ import './Shop.css';
 
 
 
-
-
 const Shop = ({shop}) => {
 
     const {name, img, price,rating} = shop;
