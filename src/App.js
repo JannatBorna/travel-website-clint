@@ -12,6 +12,7 @@ import Blogs from './components/pages/Blogs/Blogs';
 import Login from './components/Signup/Login/Login';
 import Register from './components/Signup/Register/Register';
 import Shops from './components/pages/Shop/Shops/Shops';
+import DashHome from './components/Dashboard/DashHome/DashHome';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path="/shops" element={<Shops />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
-      
+        <Route path="/dashHome" element={<DashHome />} />
        
       </Routes>
     </BrowserRouter>
