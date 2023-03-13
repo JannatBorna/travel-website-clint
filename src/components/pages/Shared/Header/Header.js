@@ -28,7 +28,7 @@ return (
               <Nav.Link href="/blogs" className='text-center nav-list'>Blogs</Nav.Link>
               <Nav.Link href="/contact" className='my-4 text-center nav-list'>Contact Us</Nav.Link>
               <Nav.Link href="/login" className='text-center nav-list'>Login</Nav.Link>
-              <Nav.Link href="/dashHome" className='my-4 text-center nav-list'>Dashboard</Nav.Link>
+              {/* <Nav.Link href="/dashHome" className='my-4 text-center nav-list'>Dashboard</Nav.Link> */}
               <Nav.Link href="/" className='my-4 text-center nav-list'>Back Home</Nav.Link>
             </Nav>
           </Offcanvas.Body>

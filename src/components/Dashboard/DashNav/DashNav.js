@@ -8,13 +8,13 @@ const DashNav = () => {
     return (
         <div>
             <Row>
-                <Col lg={3} md={3} sm={2}>
+                <Col lg={5} md={5} sm={3}>
                     <div>
                         <h2>nav</h2>
                     </div>
                 </Col>
 
-                <Col lg={9} md={9} sm={10}>
+                <Col lg={7} md={7} sm={9}>
                     <div>
                         <h2>Deffinactin</h2>
                     </div>
