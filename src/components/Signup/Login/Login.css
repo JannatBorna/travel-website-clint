@@ -50,16 +50,15 @@ form p{
 .sign-up{
     display: flex;
     padding: 0.5em;
-    width: 290px;
+    /* width: 290px; */
     height: 8vh;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: -80px;
 }
 
-.sign-up a{
+.sign-up button{
     color: #ffffff !important;
     text-decoration: none;
-    /* border: 1px solid white !important; */
 }
 
 .facebook{
@@ -68,6 +67,10 @@ form p{
 
 .google{
     background-color: #f4455a !important;
+}
+
+.github{
+     background-color: #2b2a2b !important;
 }
 
 

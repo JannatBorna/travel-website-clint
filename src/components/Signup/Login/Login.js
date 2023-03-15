@@ -2,12 +2,13 @@ import React from 'react';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookSquare, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faGoogle, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import LoginNav from '../LoginNav/LoginNav';
 import './Login.css';
 
 const Login = () => {
+
     return (
         <div>
             <div className='login-bg'>.</div>
@@ -37,9 +38,9 @@ const Login = () => {
                             </div>
 
                             <div className='mt-2 sign-up'>
-                                <a href="/" className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</a>
-                                <a href="/" className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</a>
-                                {/* <a href="/"><FontAwesomeIcon icon={faGithub}/> GitHub</a> */}
+                                <button className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</button>
+                                <button className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</button>
+                                <button className='p-2 mx-2 github'><FontAwesomeIcon icon={faGithub}/> GitHub</button>
                             </div>
                         
                     </div>

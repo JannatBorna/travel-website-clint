@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import LoginNav from '../LoginNav/LoginNav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookSquare, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faGoogle,faGithub } from "@fortawesome/free-brands-svg-icons";
 import './Register.css';
 
 const Register = () => {
@@ -50,8 +50,9 @@ const Register = () => {
                             </div>
 
                             <div className='mt-1 sign-up'>
-                                <a href="/" className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</a>
-                                <a href="/" className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</a>
+                                <button className='p-2 facebook'><FontAwesomeIcon icon={faFacebookSquare}/> Facebook</button>
+                                <button className='p-2 mx-2 google'><FontAwesomeIcon icon={faGoogle}/> Google</button>
+                                <button className='p-2 mx-2 github'><FontAwesomeIcon icon={faGithub}/> GitHub</button>
                             </div>
                         
                     </div>
