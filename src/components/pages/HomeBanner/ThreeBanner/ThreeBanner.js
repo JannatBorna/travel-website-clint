@@ -23,7 +23,7 @@ const ThreeBanner = () => {
                             <h2 className='font-semibold text-black'>The <span className="text-white theme-color">industry's Leading Tour Site</span></h2>
                             <p className='text-black'>From Cancun to New York to Dubai, Viator has it all: skip-the-line passes, VIP tours, must-see attraction tickets, and off-the-beaten-path experiences. There's no better place to book when you're crafting the perfect vacation for your clients.</p>
                             
-                            <button className="main-button">READ MORE</button>
+                            <a href="/seemore"><button className="main-button">READ MORE</button></a>
                         </div>
                     </div>
                 </Col>

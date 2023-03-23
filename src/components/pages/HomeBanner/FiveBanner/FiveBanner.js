@@ -24,7 +24,7 @@ const SixBanner = () => {
                                     <div className='mt-5'>
                                         <h3>Handpicked Hotels</h3>
                                         <p>We travel to bring what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are differently dispersed. </p>
-                                        <a href="/fiveBanner" className='anchor-tag'>Learn More</a>
+                                        <a href="/seemore" className='anchor-tag'>Learn More</a>
                                     </div> 
                                 </div>
                             </Col>
@@ -36,7 +36,7 @@ const SixBanner = () => {
                                     <div className='mt-5'>
                                         <h3>World Class Service</h3>
                                         <p>We travel to bring what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are differently dispersed. </p>
-                                        <a href="/fiveBanner" className='anchor-tag'>Learn More</a>
+                                        <a href="/seemore" className='anchor-tag'>Learn More</a>
                                     </div>   
                                 </div>
                             </Col>
@@ -48,7 +48,7 @@ const SixBanner = () => {
                                     <div className='mt-5'>
                                         <h2>Best Price Guarantee</h2>
                                         <p>We travel to bring what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are differently dispersed. </p>
-                                        <a href="/fiveBanner" className='anchor-tag'>Learn More</a>
+                                        <a href="/seemore" className='anchor-tag'>Learn More</a>
                                     </div>
                                 </div>
                             </Col>

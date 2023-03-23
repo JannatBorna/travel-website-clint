@@ -1,0 +1,21 @@
+.seemore{
+    background-color: aliceblue !important;
+    height: 90vh;
+}
+
+.seemore-img img{
+    width: 70%;
+    height: 70%;
+    border-radius: 200px;
+    margin-top: 60px;
+}
+
+.seemore-img-2 img{
+  width: 100%;
+}
+
+.seemore-text{
+    margin-top: 60px;
+    text-align: start;
+}
+

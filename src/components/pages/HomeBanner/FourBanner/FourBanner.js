@@ -12,7 +12,7 @@ const FourBanner = () => {
                         <div className="m-4 text-left">
                            <h2 className="font-semibold text-black">Travel <span className="text-white theme-color">can improve your personality</span></h2>
                            <p>f you’re an adventurer who loves being out in nature, a hiking and trekking tour should be next on your list. You can expect great wildlife photography opportunities and the chance to travel with a group of like-minded individuals who love the great outdoors.</p>
-                           <button className="main-button">READ MORE</button>
+                           <a href="/seemore"><button className="main-button">READ MORE</button></a>
                         </div>
                     </div>
                 

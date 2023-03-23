@@ -13,6 +13,7 @@ import Login from './components/Signup/Login/Login';
 import Register from './components/Signup/Register/Register';
 import Shops from './components/pages/Shop/Shops/Shops';
 import DashHome from './components/Dashboard/DashHome/DashHome';
+import Seemore from './components/pages/Seemore/Seemore';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/shops" element={<Shops />} />
+        <Route path="/seemore" element={<Seemore />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/dashHome" element={<DashHome />} />
