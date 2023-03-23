@@ -1,50 +1,32 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import layout1 from '../../../../images/layout/layout-10.jpg';
-import layout2 from '../../../../images/layout/layout-2.jpg';
-import layout3 from '../../../../images/layout/layout-3.jpg';
-import layout4 from '../../../../images/layout/layout-4.jpg';
-import layout7 from '../../../../images/layout/layout-13.jpg';
-import layout6 from '../../../../images/layout/layout-6.jpg';
-import layout8 from '../../../../images/layout/layout-8.jpg';
-import layout9 from '../../../../images/layout/layout-9.jpg';
+import { Col, Container, Row } from 'react-bootstrap';
+import idea from '../../../../images/others/idea-1.png';
 import './SixBanner.css';
 
-const FiveBanner = () => {
-return (
-  <div className="bg-black sixbanner-gap">
-    <Container>
-      <div className="p-4">
-        <h2 className="text-white">
-          Travel{" "}
-          <span className="theme-color">can improve your personality</span>
-        </h2>
-        <h3 className="p-2 text-white">Travel Gallery</h3>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src={layout1} alt="..." />
-          <img src={layout2} alt="..." />
+const SixBanner = () => {
+    return (
+        <div className='sixBanner'>
+            <Container>
+                <Row>
+                    <Col lg={6} md={6} sm={12}>
+                        <div className='sixBanner-text'>
+                            <h2 className='text-center'>HE<span className='theme-color'>LLO &#8212;</span></h2>
+                            <p className='mt-5 text-start'>I am equally happy working across both print and digital media.Wishing you a safe journey and a relaxing holiday when you arrive.May your journey be free from stress and bring you home safely.The best time for a new beginning is right now. Good luck on your new journey.Really good travel writing inspires us to get up, go out and see the world. It can be just as persuasive as an awe-inspiring photograph or an enthusiastic word-of-mouth endorsement from a close friend.</p>
+                            <p className='mt-4 text-start'>Travel texts are simply descriptions of destinations that appear in travel-related media such as magazines, websites, or brochures. They provide information about a particular destination, including its features and highlights.Travel operators and airlines are the first to think of travel texts. They need to ensure that their customers are well-informed about their upcoming trips, so they can make the best choices possible. Hotel chains, agencies, or portals rely on authentic descriptions of destinations.</p>
+                            <a href="/" className='text-center'>
+                                <button>LEARN MORE</button>
+                            </a>
+                        </div>
+                    </Col>
+                    <Col lg={6} md={6} sm={12}>
+                        <div className='idea'>
+                            <img src={idea} alt="" />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
-
-        <div class="column">
-          <img src={layout3} alt="..." />
-          <img src={layout8} alt="..." />
-        </div>
-
-        <div class="column">
-          <img src={layout7} alt="..." />
-          <img src={layout6} alt="..." />
-        </div>
-
-        <div class="column">
-          <img src={layout4} alt="..." />
-          <img src={layout9} alt="..." />
-        </div>
-      </div>
-    </Container>
-  </div>
-);
+    );
 };
 
-export default FiveBanner;
+export default SixBanner;
