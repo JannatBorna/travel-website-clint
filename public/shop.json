@@ -135,5 +135,143 @@
         "img": "https://i.ibb.co/6vhjtXY/shop-18.jpg",
         "price": "120",
         "rating":"5"
+    },
+
+    {
+        "id": "b20",
+        "name": "Laptop",
+        "img": "https://i.ibb.co/k3b1BP9/laptop.png",
+        "price": "600",
+        "rating":"5"
+
+    },
+    {
+        "id": "b21",
+        "name": "Skis",
+        "img": "https://i.ibb.co/mXQWZbz/shop-2.jpg",
+        "price": "110",
+        "rating":"5"
+
+    },
+    {
+        "id": "b22",
+        "name": "Camera",
+        "img": "https://i.ibb.co/0y45Py6/shop-3.jpg",
+        "price": "100",
+        "rating":"4"
+    },
+    {
+        "id": "b23",
+        "name": "Backpack",
+        "img": "https://i.ibb.co/GnKt5G9/shop-4.jpg",
+        "price": "80",
+        "rating":"3"
+
+    },
+    {
+        "id": "b24",
+        "name": "Towel",
+        "img": "https://i.ibb.co/kJbxBG9/shop-5.jpg",
+        "price": "100",
+        "rating":"4"
+    },
+    {
+        "id": "b25",
+        "name": "Compass",
+        "img": "https://i.ibb.co/q7Lnhf5/shop-6.jpg",
+        "price": "110",
+        "rating":"5"
+    },
+    {
+        "id": "b26",
+        "name": "Thermos",
+        "img": "https://i.ibb.co/mv35pPV/shop-7.jpg",
+        "price": "100",
+        "rating":"4"
+    },
+    {
+        "id": "b27",
+        "name": "Sunglasses",
+        "img": "https://i.ibb.co/pwK9kSg/shop-8.jpg",
+        "price": "90",
+        "rating":"5"
+    },
+    {
+        "id": "b28",
+        "name": "Star",
+        "img": "https://i.ibb.co/19SBrHh/shop-9.jpg",
+        "price": "160",
+        "rating":"5"
+    },
+    {
+        "id": "b29",
+        "name": "Flip-flops",
+        "img": "https://i.ibb.co/fGxKGMv/shop-10.jpg",
+        "price": "130",
+        "rating":"5"
+    },
+    {
+        "id": "b30",
+        "name": "Summer Hat",
+        "img": "https://i.ibb.co/ssrWn8x/shop-11.jpg",
+        "price": "90",
+        "rating":"3"
+    },
+    {
+        "id": "b31",
+        "name": "Rope",
+        "img": "https://i.ibb.co/fFLd5RT/shop-12.jpg",
+        "price": "100",
+        "rating":"4"
+    },    
+    {
+        "id": "b32",
+        "name": "Lamp",
+        "img": "https://i.ibb.co/t46wM6z/shop-13.jpg",
+        "price": "130",
+        "rating":"5"
+    },
+    {
+        "id": "b33",
+        "name": "Skateboard",
+        "img": "https://i.ibb.co/nsNTd7y/shop-14.jpg",
+        "price": "110",
+        "rating":"4"
+    },
+
+    {
+        "id": "b34",
+        "name": "Bag",
+        "img": "https://i.ibb.co/DpLt3z7/shop-15.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b35",
+        "name": "Summer Hat",
+        "img": "https://i.ibb.co/ssrWn8x/shop-11.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b36",
+        "name": "Tent",
+        "img": "https://i.ibb.co/YWKysM3/shop-16.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b37",
+        "name": "Power Bank",
+        "img": "https://i.ibb.co/DpLt3z7/shop-15.jpg",
+        "price": "120",
+        "rating":"5"
+    },
+    {
+        "id": "b38",
+        "name": "Umbrella",
+        "img": "https://i.ibb.co/6vhjtXY/shop-18.jpg",
+        "price": "120",
+        "rating":"5"
     }
 ]

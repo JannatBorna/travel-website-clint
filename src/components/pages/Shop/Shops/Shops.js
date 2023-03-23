@@ -13,7 +13,7 @@ const Shops = () => {
     const [ shops, setShops ] = useState([]);
 
     useEffect( () =>{
-        fetch('/shop.json')
+        fetch('http://localhost:2000/shops')
         .then(res => res.json())
         .then(data => setShops(data))
 
