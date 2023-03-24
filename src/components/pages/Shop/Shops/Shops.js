@@ -13,7 +13,7 @@ const Shops = () => {
     const [ shops, setShops ] = useState([]);
 
     useEffect( () =>{
-        fetch('http://localhost:2000/shops')
+        fetch('https://travel-website-hvph.onrender.com/shops')
         .then(res => res.json())
         .then(data => setShops(data))
 
